@@ -142,6 +142,7 @@
     top: 0;
     left: 0;
     background-color: black;
+    z-index: 1;
 }
 .overlay-content {
     position: relative;
@@ -187,17 +188,6 @@
     width: 10%;
     padding: 15px;
     font-size: 17px;
-}
-
-.index-fresher-jobs-section img{
-    width: 100%;
-    height: 100%;
-}
-
-.index-trainings-section{
-    background: url('images/gray-background.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
 }
 
 .index-internship-card{
@@ -261,6 +251,17 @@
 }
 .index-internship-card-media{
     background-image: url('images/index-internship-card-media.jpg');
+}
+
+.index-trainings-section{
+    background: url('images/gray-background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.index-fresher-jobs-section img{
+    width: 100%;
+    height: 100%;
 }
 /* MAIN ENDS */
 
